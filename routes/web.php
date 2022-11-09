@@ -15,4 +15,4 @@ use App\Http\Controllers\usercontroller;
 
 Route::get('/',[usercontroller::class,'form']);
 Route::post('/request',[usercontroller::class,'insert']);
-// Route::get('/fill',[usercontroller::class,'show']);
+Route::get('/fill',[usercontroller::class,'show']);
